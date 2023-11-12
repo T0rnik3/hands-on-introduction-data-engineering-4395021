@@ -1,0 +1,14 @@
+2023-11-12 11:15:12,645 INFO - Starting the scheduler
+2023-11-12 11:15:12,646 INFO - Processing each file at most -1 times
+2023-11-12 11:15:12,647 INFO - Loaded executor: SequentialExecutor
+2023-11-12 11:15:12,652 INFO - Launched DagFileProcessorManager with pid: 24877
+2023-11-12 11:15:12,653 INFO - Resetting orphaned tasks for active dag runs
+2023-11-12 11:15:12,657 INFO - Configured default timezone Timezone('UTC')
+2023-11-12 11:17:25,684 INFO - Exiting gracefully upon receiving signal 15
+2023-11-12 11:17:26,687 INFO - Sending Signals.SIGTERM to group 24877. PIDs of all processes in the group: [24877]
+2023-11-12 11:17:26,687 INFO - Sending the signal Signals.SIGTERM to group 24877
+2023-11-12 11:17:26,942 INFO - Process psutil.Process(pid=24877, status='terminated', exitcode=0, started='11:15:12') (24877) terminated with exit code 0
+2023-11-12 11:17:26,944 INFO - Sending Signals.SIGTERM to group 24877. PIDs of all processes in the group: []
+2023-11-12 11:17:26,944 INFO - Sending the signal Signals.SIGTERM to group 24877
+2023-11-12 11:17:26,944 INFO - Sending the signal Signals.SIGTERM to process 24877 as process group is missing.
+2023-11-12 11:17:26,945 INFO - Exited execute loop

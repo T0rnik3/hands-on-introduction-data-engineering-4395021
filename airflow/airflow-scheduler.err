@@ -1,0 +1,9 @@
+[2023-11-12 11:15:12 +0000] [24875] [INFO] Starting gunicorn 20.1.0
+[2023-11-12 11:15:12 +0000] [24875] [INFO] Listening at: http://[::]:8793 (24875)
+[2023-11-12 11:15:12 +0000] [24875] [INFO] Using worker: sync
+[2023-11-12 11:15:12 +0000] [24876] [INFO] Booting worker with pid: 24876
+[2023-11-12 11:15:12 +0000] [24878] [INFO] Booting worker with pid: 24878
+[2023-11-12 11:17:26 +0000] [24875] [INFO] Handling signal: term
+[2023-11-12 11:17:26 +0000] [24878] [INFO] Worker exiting (pid: 24878)
+[2023-11-12 11:17:26 +0000] [24876] [INFO] Worker exiting (pid: 24876)
+[2023-11-12 11:17:27 +0000] [24875] [INFO] Shutting down: Master
