@@ -1,0 +1,1 @@
+[2023-11-12T12:50:30.703+0000] {manager.py:409} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.

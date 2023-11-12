@@ -1,0 +1,18 @@
+[2023-11-12 12:50:30 +0000] [18243] [INFO] Starting gunicorn 20.1.0
+[2023-11-12 12:50:30 +0000] [18243] [ERROR] Connection in use: ('::', 8793)
+[2023-11-12 12:50:30 +0000] [18243] [ERROR] Retrying in 1 second.
+INFO  [airflow.jobs.scheduler_job.SchedulerJob] Starting the scheduler
+INFO  [airflow.jobs.scheduler_job.SchedulerJob] Processing each file at most -1 times
+INFO  [airflow.executors.executor_loader] Loaded executor: SequentialExecutor
+INFO  [airflow.dag_processing.manager.DagFileProcessorAgent] Launched DagFileProcessorManager with pid: 18244
+INFO  [airflow.jobs.scheduler_job.SchedulerJob] Resetting orphaned tasks for active dag runs
+INFO  [airflow.settings] Configured default timezone Timezone('UTC')
+[2023-11-12 12:50:31 +0000] [18243] [ERROR] Connection in use: ('::', 8793)
+[2023-11-12 12:50:31 +0000] [18243] [ERROR] Retrying in 1 second.
+[2023-11-12 12:50:32 +0000] [18243] [ERROR] Connection in use: ('::', 8793)
+[2023-11-12 12:50:32 +0000] [18243] [ERROR] Retrying in 1 second.
+[2023-11-12 12:50:33 +0000] [18243] [ERROR] Connection in use: ('::', 8793)
+[2023-11-12 12:50:33 +0000] [18243] [ERROR] Retrying in 1 second.
+[2023-11-12 12:50:34 +0000] [18243] [ERROR] Connection in use: ('::', 8793)
+[2023-11-12 12:50:34 +0000] [18243] [ERROR] Retrying in 1 second.
+[2023-11-12 12:50:35 +0000] [18243] [ERROR] Can't connect to ('::', 8793)

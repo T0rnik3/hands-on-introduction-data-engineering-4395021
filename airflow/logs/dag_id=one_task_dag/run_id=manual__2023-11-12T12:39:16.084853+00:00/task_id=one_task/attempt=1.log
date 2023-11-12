@@ -1,0 +1,34 @@
+[2023-11-12T12:39:19.021+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: one_task_dag.one_task manual__2023-11-12T12:39:16.084853+00:00 [queued]>
+[2023-11-12T12:39:19.026+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: one_task_dag.one_task manual__2023-11-12T12:39:16.084853+00:00 [queued]>
+[2023-11-12T12:39:19.026+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-12T12:39:19.026+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-12T12:39:19.026+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-12T12:39:19.071+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): one_task> on 2023-11-12 12:39:16.084853+00:00
+[2023-11-12T12:39:19.074+0000] {standard_task_runner.py:55} INFO - Started process 13396 to run task
+[2023-11-12T12:39:19.076+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2023-11-12T12:39:16.084853+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/one_task_dag.py', '--cfg-path', '/tmp/tmpd00qdlom']
+[2023-11-12T12:39:19.077+0000] {standard_task_runner.py:83} INFO - Job 6: Subtask one_task
+[2023-11-12T12:39:19.142+0000] {task_command.py:388} INFO - Running <TaskInstance: one_task_dag.one_task manual__2023-11-12T12:39:16.084853+00:00 [running]> on host codespaces-1a8ad4
+[2023-11-12T12:39:19.262+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Vinoo
+AIRFLOW_CTX_DAG_ID=one_task_dag
+AIRFLOW_CTX_TASK_ID=one_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-12T12:39:16.084853+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-12T12:39:16.084853+00:00
+[2023-11-12T12:39:19.263+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-11-12T12:39:19.264+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "hello, linkedin learning!" > /workspace/hands-on-introduction-data-engineering-4395021/lab/one_task.txt/']
+[2023-11-12T12:39:19.270+0000] {subprocess.py:86} INFO - Output:
+[2023-11-12T12:39:19.272+0000] {subprocess.py:93} INFO - /usr/bin/bash: /workspace/hands-on-introduction-data-engineering-4395021/lab/one_task.txt/: No such file or directory
+[2023-11-12T12:39:19.272+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-11-12T12:39:19.277+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-11-12T12:39:19.279+0000] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=one_task_dag, task_id=one_task, execution_date=20231112T123916, start_date=20231112T123919, end_date=20231112T123919
+[2023-11-12T12:39:19.322+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 6 for task one_task (Bash command failed. The command returned a non-zero exit code 1.; 13396)
+[2023-11-12T12:39:19.329+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-11-12T12:39:19.337+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

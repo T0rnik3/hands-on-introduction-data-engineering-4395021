@@ -1,0 +1,6 @@
+2023-11-12 12:50:30,678 INFO - Starting the scheduler
+2023-11-12 12:50:30,679 INFO - Processing each file at most -1 times
+2023-11-12 12:50:30,680 INFO - Loaded executor: SequentialExecutor
+2023-11-12 12:50:30,685 INFO - Launched DagFileProcessorManager with pid: 18244
+2023-11-12 12:50:30,686 INFO - Resetting orphaned tasks for active dag runs
+2023-11-12 12:50:30,691 INFO - Configured default timezone Timezone('UTC')
