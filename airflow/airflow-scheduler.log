@@ -1,0 +1,109 @@
+2023-11-14 16:27:49,114 INFO - Starting the scheduler
+2023-11-14 16:27:49,115 INFO - Processing each file at most -1 times
+2023-11-14 16:27:49,116 INFO - Loaded executor: SequentialExecutor
+2023-11-14 16:27:49,121 INFO - Launched DagFileProcessorManager with pid: 15311
+2023-11-14 16:27:49,122 INFO - Resetting orphaned tasks for active dag runs
+2023-11-14 16:27:49,126 INFO - Configured default timezone Timezone('UTC')
+2023-11-14 16:32:16,293 INFO - Exiting gracefully upon receiving signal 15
+2023-11-14 16:32:17,296 INFO - Sending Signals.SIGTERM to group 15311. PIDs of all processes in the group: [15311]
+2023-11-14 16:32:17,296 INFO - Sending the signal Signals.SIGTERM to group 15311
+2023-11-14 16:32:17,512 INFO - Process psutil.Process(pid=15311, status='terminated', exitcode=0, started='16:27:48') (15311) terminated with exit code 0
+2023-11-14 16:32:17,515 INFO - Sending Signals.SIGTERM to group 15311. PIDs of all processes in the group: []
+2023-11-14 16:32:17,515 INFO - Sending the signal Signals.SIGTERM to group 15311
+2023-11-14 16:32:17,515 INFO - Sending the signal Signals.SIGTERM to process 15311 as process group is missing.
+2023-11-14 16:32:17,516 INFO - Exited execute loop
+2023-11-14 16:33:22,661 INFO - Starting the scheduler
+2023-11-14 16:33:22,662 INFO - Processing each file at most -1 times
+2023-11-14 16:33:22,664 INFO - Loaded executor: SequentialExecutor
+2023-11-14 16:33:22,671 INFO - Launched DagFileProcessorManager with pid: 18130
+2023-11-14 16:33:22,673 INFO - Resetting orphaned tasks for active dag runs
+2023-11-14 16:33:22,676 INFO - Configured default timezone Timezone('UTC')
+2023-11-14 16:34:57,599 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:34:56.152706+00:00 [scheduled]>
+2023-11-14 16:34:57,600 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2023-11-14 16:34:57,600 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:34:56.152706+00:00 [scheduled]>
+2023-11-14 16:34:57,605 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='extract_task', run_id='manual__2023-11-14T16:34:56.152706+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-11-14 16:34:57,605 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2023-11-14T16:34:56.152706+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:34:57,648 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2023-11-14T16:34:56.152706+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:35:02,239 INFO - Executor reports execution of basic_etl_dag.extract_task run_id=manual__2023-11-14T16:34:56.152706+00:00 exited with status success for try_number 1
+2023-11-14 16:35:02,245 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=extract_task, run_id=manual__2023-11-14T16:34:56.152706+00:00, map_index=-1, run_start_date=2023-11-14 16:34:59.676904+00:00, run_end_date=2023-11-14 16:35:01.798784+00:00, run_duration=2.12188, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=3, operator=BashOperator, queued_dttm=2023-11-14 16:34:57.601437+00:00, queued_by_job_id=2, pid=18748
+2023-11-14 16:35:03,317 ERROR - Marking run <DagRun basic_etl_dag @ 2023-11-14 16:34:56.152706+00:00: manual__2023-11-14T16:34:56.152706+00:00, state:running, queued_at: 2023-11-14 16:34:56.209796+00:00. externally triggered: True> failed
+2023-11-14 16:35:03,317 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2023-11-14 16:34:56.152706+00:00, run_id=manual__2023-11-14T16:34:56.152706+00:00, run_start_date=2023-11-14 16:34:57.137840+00:00, run_end_date=2023-11-14 16:35:03.317603+00:00, run_duration=6.179763, state=failed, external_trigger=True, run_type=manual, data_interval_start=2023-11-14 16:34:56.152706+00:00, data_interval_end=2023-11-14 16:34:56.152706+00:00, dag_hash=5818f141addb9d3831191a31d6d75df9
+2023-11-14 16:35:03,320 INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+2023-11-14 16:36:13,823 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:36:12.485098+00:00 [scheduled]>
+2023-11-14 16:36:13,823 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2023-11-14 16:36:13,823 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:36:12.485098+00:00 [scheduled]>
+2023-11-14 16:36:13,824 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='extract_task', run_id='manual__2023-11-14T16:36:12.485098+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-11-14 16:36:13,825 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2023-11-14T16:36:12.485098+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:36:13,868 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2023-11-14T16:36:12.485098+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:36:18,348 INFO - Executor reports execution of basic_etl_dag.extract_task run_id=manual__2023-11-14T16:36:12.485098+00:00 exited with status success for try_number 1
+2023-11-14 16:36:18,351 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=extract_task, run_id=manual__2023-11-14T16:36:12.485098+00:00, map_index=-1, run_start_date=2023-11-14 16:36:15.943969+00:00, run_end_date=2023-11-14 16:36:17.857809+00:00, run_duration=1.91384, state=success, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=3, operator=BashOperator, queued_dttm=2023-11-14 16:36:13.823835+00:00, queued_by_job_id=2, pid=19247
+2023-11-14 16:36:18,501 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.transform_task manual__2023-11-14T16:36:12.485098+00:00 [scheduled]>
+2023-11-14 16:36:18,501 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2023-11-14 16:36:18,501 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.transform_task manual__2023-11-14T16:36:12.485098+00:00 [scheduled]>
+2023-11-14 16:36:18,503 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='transform_task', run_id='manual__2023-11-14T16:36:12.485098+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-11-14 16:36:18,503 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'transform_task', 'manual__2023-11-14T16:36:12.485098+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:36:18,544 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'transform_task', 'manual__2023-11-14T16:36:12.485098+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:36:21,224 INFO - Executor reports execution of basic_etl_dag.transform_task run_id=manual__2023-11-14T16:36:12.485098+00:00 exited with status success for try_number 1
+2023-11-14 16:36:21,228 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=transform_task, run_id=manual__2023-11-14T16:36:12.485098+00:00, map_index=-1, run_start_date=2023-11-14 16:36:20.387395+00:00, run_end_date=2023-11-14 16:36:20.752509+00:00, run_duration=0.365114, state=success, executor_state=success, try_number=1, max_tries=0, job_id=5, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2023-11-14 16:36:18.502041+00:00, queued_by_job_id=2, pid=19284
+2023-11-14 16:36:21,305 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.load_task manual__2023-11-14T16:36:12.485098+00:00 [scheduled]>
+2023-11-14 16:36:21,306 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2023-11-14 16:36:21,306 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.load_task manual__2023-11-14T16:36:12.485098+00:00 [scheduled]>
+2023-11-14 16:36:21,310 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='load_task', run_id='manual__2023-11-14T16:36:12.485098+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-11-14 16:36:21,311 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'load_task', 'manual__2023-11-14T16:36:12.485098+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:36:21,353 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'load_task', 'manual__2023-11-14T16:36:12.485098+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:36:23,935 INFO - Executor reports execution of basic_etl_dag.load_task run_id=manual__2023-11-14T16:36:12.485098+00:00 exited with status success for try_number 1
+2023-11-14 16:36:23,938 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=load_task, run_id=manual__2023-11-14T16:36:12.485098+00:00, map_index=-1, run_start_date=2023-11-14 16:36:23.018511+00:00, run_end_date=2023-11-14 16:36:23.486268+00:00, run_duration=0.467757, state=success, executor_state=success, try_number=1, max_tries=0, job_id=6, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-11-14 16:36:21.307715+00:00, queued_by_job_id=2, pid=19299
+2023-11-14 16:36:24,014 INFO - Marking run <DagRun basic_etl_dag @ 2023-11-14 16:36:12.485098+00:00: manual__2023-11-14T16:36:12.485098+00:00, state:running, queued_at: 2023-11-14 16:36:12.489243+00:00. externally triggered: True> successful
+2023-11-14 16:36:24,014 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2023-11-14 16:36:12.485098+00:00, run_id=manual__2023-11-14T16:36:12.485098+00:00, run_start_date=2023-11-14 16:36:13.716854+00:00, run_end_date=2023-11-14 16:36:24.014478+00:00, run_duration=10.297624, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-11-14 16:36:12.485098+00:00, data_interval_end=2023-11-14 16:36:12.485098+00:00, dag_hash=928c1a40cd8162f40a674cbb36a96ae3
+2023-11-14 16:36:24,016 INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+2023-11-14 16:36:54,136 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:36:53.751126+00:00 [scheduled]>
+2023-11-14 16:36:54,137 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2023-11-14 16:36:54,137 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:36:53.751126+00:00 [scheduled]>
+2023-11-14 16:36:54,138 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='extract_task', run_id='manual__2023-11-14T16:36:53.751126+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-11-14 16:36:54,138 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2023-11-14T16:36:53.751126+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:36:54,179 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2023-11-14T16:36:53.751126+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:36:59,101 INFO - Executor reports execution of basic_etl_dag.extract_task run_id=manual__2023-11-14T16:36:53.751126+00:00 exited with status success for try_number 1
+2023-11-14 16:36:59,106 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=extract_task, run_id=manual__2023-11-14T16:36:53.751126+00:00, map_index=-1, run_start_date=2023-11-14 16:36:56.751738+00:00, run_end_date=2023-11-14 16:36:58.659858+00:00, run_duration=1.90812, state=success, executor_state=success, try_number=1, max_tries=0, job_id=7, pool=default_pool, queue=default, priority_weight=3, operator=BashOperator, queued_dttm=2023-11-14 16:36:54.137693+00:00, queued_by_job_id=2, pid=19499
+2023-11-14 16:36:59,236 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.transform_task manual__2023-11-14T16:36:53.751126+00:00 [scheduled]>
+2023-11-14 16:36:59,236 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2023-11-14 16:36:59,236 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.transform_task manual__2023-11-14T16:36:53.751126+00:00 [scheduled]>
+2023-11-14 16:36:59,238 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='transform_task', run_id='manual__2023-11-14T16:36:53.751126+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-11-14 16:36:59,238 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'transform_task', 'manual__2023-11-14T16:36:53.751126+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:36:59,284 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'transform_task', 'manual__2023-11-14T16:36:53.751126+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:37:02,015 INFO - Executor reports execution of basic_etl_dag.transform_task run_id=manual__2023-11-14T16:36:53.751126+00:00 exited with status success for try_number 1
+2023-11-14 16:37:02,018 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=transform_task, run_id=manual__2023-11-14T16:36:53.751126+00:00, map_index=-1, run_start_date=2023-11-14 16:37:01.171665+00:00, run_end_date=2023-11-14 16:37:01.546119+00:00, run_duration=0.374454, state=success, executor_state=success, try_number=1, max_tries=0, job_id=8, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2023-11-14 16:36:59.237038+00:00, queued_by_job_id=2, pid=19539
+2023-11-14 16:37:02,089 INFO - 1 tasks up for execution:
+	<TaskInstance: basic_etl_dag.load_task manual__2023-11-14T16:36:53.751126+00:00 [scheduled]>
+2023-11-14 16:37:02,089 INFO - DAG basic_etl_dag has 0/16 running and queued tasks
+2023-11-14 16:37:02,090 INFO - Setting the following tasks to queued state:
+	<TaskInstance: basic_etl_dag.load_task manual__2023-11-14T16:36:53.751126+00:00 [scheduled]>
+2023-11-14 16:37:02,092 INFO - Sending TaskInstanceKey(dag_id='basic_etl_dag', task_id='load_task', run_id='manual__2023-11-14T16:36:53.751126+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-11-14 16:37:02,093 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'load_task', 'manual__2023-11-14T16:36:53.751126+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:37:02,135 INFO - Executing command: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'load_task', 'manual__2023-11-14T16:36:53.751126+00:00', '--local', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py']
+2023-11-14 16:37:04,777 INFO - Executor reports execution of basic_etl_dag.load_task run_id=manual__2023-11-14T16:36:53.751126+00:00 exited with status success for try_number 1
+2023-11-14 16:37:04,780 INFO - TaskInstance Finished: dag_id=basic_etl_dag, task_id=load_task, run_id=manual__2023-11-14T16:36:53.751126+00:00, map_index=-1, run_start_date=2023-11-14 16:37:03.925927+00:00, run_end_date=2023-11-14 16:37:04.384743+00:00, run_duration=0.458816, state=success, executor_state=success, try_number=1, max_tries=0, job_id=9, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-11-14 16:37:02.090583+00:00, queued_by_job_id=2, pid=19554
+2023-11-14 16:37:05,361 INFO - Marking run <DagRun basic_etl_dag @ 2023-11-14 16:36:53.751126+00:00: manual__2023-11-14T16:36:53.751126+00:00, state:running, queued_at: 2023-11-14 16:36:53.760975+00:00. externally triggered: True> successful
+2023-11-14 16:37:05,362 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2023-11-14 16:36:53.751126+00:00, run_id=manual__2023-11-14T16:36:53.751126+00:00, run_start_date=2023-11-14 16:36:54.040036+00:00, run_end_date=2023-11-14 16:37:05.362016+00:00, run_duration=11.32198, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-11-14 16:36:53.751126+00:00, data_interval_end=2023-11-14 16:36:53.751126+00:00, dag_hash=928c1a40cd8162f40a674cbb36a96ae3
+2023-11-14 16:37:05,363 INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+2023-11-14 16:38:22,750 INFO - Resetting orphaned tasks for active dag runs
+2023-11-14 16:43:22,789 INFO - Resetting orphaned tasks for active dag runs
+2023-11-14 16:47:34,100 INFO - Exiting gracefully upon receiving signal 15
+2023-11-14 16:47:35,103 INFO - Sending Signals.SIGTERM to group 18130. PIDs of all processes in the group: [18130]
+2023-11-14 16:47:35,104 INFO - Sending the signal Signals.SIGTERM to group 18130
+2023-11-14 16:47:35,328 INFO - Process psutil.Process(pid=18130, status='terminated', exitcode=0, started='16:33:22') (18130) terminated with exit code 0
+2023-11-14 16:47:35,330 INFO - Sending Signals.SIGTERM to group 18130. PIDs of all processes in the group: []
+2023-11-14 16:47:35,330 INFO - Sending the signal Signals.SIGTERM to group 18130
+2023-11-14 16:47:35,331 INFO - Sending the signal Signals.SIGTERM to process 18130 as process group is missing.
+2023-11-14 16:47:35,331 INFO - Exited execute loop

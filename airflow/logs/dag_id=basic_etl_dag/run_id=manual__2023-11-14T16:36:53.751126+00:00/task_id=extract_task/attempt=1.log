@@ -1,0 +1,43 @@
+[2023-11-14T16:36:56.751+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:36:53.751126+00:00 [queued]>
+[2023-11-14T16:36:56.756+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:36:53.751126+00:00 [queued]>
+[2023-11-14T16:36:56.756+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-14T16:36:56.756+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-14T16:36:56.756+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-14T16:36:56.803+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): extract_task> on 2023-11-14 16:36:53.751126+00:00
+[2023-11-14T16:36:56.807+0000] {standard_task_runner.py:55} INFO - Started process 19499 to run task
+[2023-11-14T16:36:56.810+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2023-11-14T16:36:53.751126+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py', '--cfg-path', '/tmp/tmplw3p72bj']
+[2023-11-14T16:36:56.811+0000] {standard_task_runner.py:83} INFO - Job 7: Subtask extract_task
+[2023-11-14T16:36:56.880+0000] {task_command.py:388} INFO - Running <TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:36:53.751126+00:00 [running]> on host codespaces-1a8ad4
+[2023-11-14T16:36:57.183+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=basic_etl_dag
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-14T16:36:53.751126+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-14T16:36:53.751126+00:00
+[2023-11-14T16:36:57.184+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-11-14T16:36:57.185+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'wget -c https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv -O /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv']
+[2023-11-14T16:36:57.198+0000] {subprocess.py:86} INFO - Output:
+[2023-11-14T16:36:57.202+0000] {subprocess.py:93} INFO - --2023-11-14 16:36:57--  https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv
+[2023-11-14T16:36:57.205+0000] {subprocess.py:93} INFO - Resolving datahub.io (datahub.io)... 188.114.96.0, 188.114.97.0, 2a06:98c1:3120::, ...
+[2023-11-14T16:36:57.206+0000] {subprocess.py:93} INFO - Connecting to datahub.io (datahub.io)|188.114.96.0|:443... connected.
+[2023-11-14T16:36:58.482+0000] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 302 Found
+[2023-11-14T16:36:58.482+0000] {subprocess.py:93} INFO - Location: https://pkgstore.datahub.io/core/top-level-domain-names/top-level-domain-names.csv_csv/data/667f4464088f3ca10522e0e2e39c8ae4/top-level-domain-names.csv_csv.csv [following]
+[2023-11-14T16:36:58.483+0000] {subprocess.py:93} INFO - --2023-11-14 16:36:58--  https://pkgstore.datahub.io/core/top-level-domain-names/top-level-domain-names.csv_csv/data/667f4464088f3ca10522e0e2e39c8ae4/top-level-domain-names.csv_csv.csv
+[2023-11-14T16:36:58.483+0000] {subprocess.py:93} INFO - Resolving pkgstore.datahub.io (pkgstore.datahub.io)... 188.114.97.0, 188.114.96.0, 2a06:98c1:3120::, ...
+[2023-11-14T16:36:58.485+0000] {subprocess.py:93} INFO - Connecting to pkgstore.datahub.io (pkgstore.datahub.io)|188.114.97.0|:443... connected.
+[2023-11-14T16:36:58.606+0000] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 200 OK
+[2023-11-14T16:36:58.606+0000] {subprocess.py:93} INFO - Length: unspecified [text/plain]
+[2023-11-14T16:36:58.606+0000] {subprocess.py:93} INFO - Saving to: ‘/workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv’
+[2023-11-14T16:36:58.607+0000] {subprocess.py:93} INFO - 
+[2023-11-14T16:36:58.607+0000] {subprocess.py:93} INFO -      0K .......... .......... .......... .......... ..         33.0M=0.001s
+[2023-11-14T16:36:58.608+0000] {subprocess.py:93} INFO - 
+[2023-11-14T16:36:58.608+0000] {subprocess.py:93} INFO - 2023-11-14 16:36:58 (33.0 MB/s) - ‘/workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv’ saved [43709]
+[2023-11-14T16:36:58.608+0000] {subprocess.py:93} INFO - 
+[2023-11-14T16:36:58.609+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-11-14T16:36:58.659+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=basic_etl_dag, task_id=extract_task, execution_date=20231114T163653, start_date=20231114T163656, end_date=20231114T163658
+[2023-11-14T16:36:58.747+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-11-14T16:36:58.762+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

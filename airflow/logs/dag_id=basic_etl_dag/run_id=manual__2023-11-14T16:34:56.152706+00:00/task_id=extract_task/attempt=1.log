@@ -1,0 +1,39 @@
+[2023-11-14T16:34:59.676+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:34:56.152706+00:00 [queued]>
+[2023-11-14T16:34:59.681+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:34:56.152706+00:00 [queued]>
+[2023-11-14T16:34:59.681+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-14T16:34:59.681+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-14T16:34:59.681+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-14T16:34:59.733+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): extract_task> on 2023-11-14 16:34:56.152706+00:00
+[2023-11-14T16:34:59.736+0000] {standard_task_runner.py:55} INFO - Started process 18748 to run task
+[2023-11-14T16:34:59.739+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2023-11-14T16:34:56.152706+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py', '--cfg-path', '/tmp/tmph77ombpb']
+[2023-11-14T16:34:59.740+0000] {standard_task_runner.py:83} INFO - Job 3: Subtask extract_task
+[2023-11-14T16:34:59.868+0000] {task_command.py:388} INFO - Running <TaskInstance: basic_etl_dag.extract_task manual__2023-11-14T16:34:56.152706+00:00 [running]> on host codespaces-1a8ad4
+[2023-11-14T16:35:00.067+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=basic_etl_dag
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-14T16:34:56.152706+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-14T16:34:56.152706+00:00
+[2023-11-14T16:35:00.069+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-11-14T16:35:00.069+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'wget -c https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv -O /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv']
+[2023-11-14T16:35:00.078+0000] {subprocess.py:86} INFO - Output:
+[2023-11-14T16:35:00.164+0000] {subprocess.py:93} INFO - --2023-11-14 16:35:00--  https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv
+[2023-11-14T16:35:00.211+0000] {subprocess.py:93} INFO - Resolving datahub.io (datahub.io)... 188.114.97.0, 188.114.96.0, 2a06:98c1:3120::, ...
+[2023-11-14T16:35:00.213+0000] {subprocess.py:93} INFO - Connecting to datahub.io (datahub.io)|188.114.97.0|:443... connected.
+[2023-11-14T16:35:01.790+0000] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 404 Not Found
+[2023-11-14T16:35:01.791+0000] {subprocess.py:93} INFO - 2023-11-14 16:35:01 ERROR 404: Not Found.
+[2023-11-14T16:35:01.791+0000] {subprocess.py:93} INFO - 
+[2023-11-14T16:35:01.791+0000] {subprocess.py:97} INFO - Command exited with return code 8
+[2023-11-14T16:35:01.797+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 8.
+[2023-11-14T16:35:01.799+0000] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=basic_etl_dag, task_id=extract_task, execution_date=20231114T163456, start_date=20231114T163459, end_date=20231114T163501
+[2023-11-14T16:35:01.850+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 3 for task extract_task (Bash command failed. The command returned a non-zero exit code 8.; 18748)
+[2023-11-14T16:35:01.875+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-11-14T16:35:01.888+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
