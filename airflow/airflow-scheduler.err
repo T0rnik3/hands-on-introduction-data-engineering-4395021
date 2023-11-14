@@ -1,12 +1,39 @@
-[2023-11-14 15:40:44 +0000] [7504] [INFO] Starting gunicorn 20.1.0
-[2023-11-14 15:40:44 +0000] [7504] [ERROR] Connection in use: ('::', 8793)
-[2023-11-14 15:40:44 +0000] [7504] [ERROR] Retrying in 1 second.
-[2023-11-14 15:40:45 +0000] [7504] [ERROR] Connection in use: ('::', 8793)
-[2023-11-14 15:40:45 +0000] [7504] [ERROR] Retrying in 1 second.
-[2023-11-14 15:40:46 +0000] [7504] [ERROR] Connection in use: ('::', 8793)
-[2023-11-14 15:40:46 +0000] [7504] [ERROR] Retrying in 1 second.
-[2023-11-14 15:40:47 +0000] [7504] [ERROR] Connection in use: ('::', 8793)
-[2023-11-14 15:40:47 +0000] [7504] [ERROR] Retrying in 1 second.
-[2023-11-14 15:40:48 +0000] [7504] [ERROR] Connection in use: ('::', 8793)
-[2023-11-14 15:40:48 +0000] [7504] [ERROR] Retrying in 1 second.
-[2023-11-14 15:40:49 +0000] [7504] [ERROR] Can't connect to ('::', 8793)
+[2023-11-14 16:07:45 +0000] [6879] [INFO] Starting gunicorn 20.1.0
+[2023-11-14 16:07:45 +0000] [6879] [INFO] Listening at: http://[::]:8793 (6879)
+[2023-11-14 16:07:45 +0000] [6879] [INFO] Using worker: sync
+[2023-11-14 16:07:45 +0000] [6880] [INFO] Booting worker with pid: 6880
+[2023-11-14 16:07:45 +0000] [6882] [INFO] Booting worker with pid: 6882
+/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/base.py:49 MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+[2023-11-14 16:15:18 +0000] [6879] [INFO] Handling signal: term
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/__main__.py", line 39, in main
+    args.func(args)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/cli/cli_parser.py", line 52, in command
+    return func(*args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/cli.py", line 108, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 67, in scheduler
+    with ctx:
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/daemon/daemon.py", line 397, in __exit__
+    self.close()
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/daemon/daemon.py", line 391, in close
+    self.pidfile.__exit__(None, None, None)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/lockfile/__init__.py", line 204, in __exit__
+    self.release()
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/lockfile/pidlockfile.py", line 105, in release
+    raise NotMyLock("%s is locked, but not by me" % self.path)
+lockfile.NotMyLock: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/airflow-scheduler.pid is locked, but not by me
+Exception ignored in atexit callback: <bound method DaemonContext.close of <daemon.daemon.DaemonContext object at 0x7ff6c254aaa0>>
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/daemon/daemon.py", line 391, in close
+    self.pidfile.__exit__(None, None, None)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/lockfile/__init__.py", line 204, in __exit__
+    self.release()
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/lockfile/pidlockfile.py", line 105, in release
+    raise NotMyLock("%s is locked, but not by me" % self.path)
+lockfile.NotMyLock: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/airflow-scheduler.pid is locked, but not by me
+[2023-11-14 16:15:18 +0000] [6880] [INFO] Worker exiting (pid: 6880)
+[2023-11-14 16:15:18 +0000] [6882] [INFO] Worker exiting (pid: 6882)
+[2023-11-14 16:15:18 +0000] [6879] [INFO] Shutting down: Master

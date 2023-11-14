@@ -6,3 +6,32 @@
 2023-11-14 15:40:44,854 INFO - Configured default timezone Timezone('UTC')
 2023-11-14 15:45:44,990 INFO - Resetting orphaned tasks for active dag runs
 2023-11-14 15:50:45,022 INFO - Resetting orphaned tasks for active dag runs
+2023-11-14 16:07:45,423 INFO - Starting the scheduler
+2023-11-14 16:07:45,426 INFO - Processing each file at most -1 times
+2023-11-14 16:07:45,428 INFO - Loaded executor: SequentialExecutor
+2023-11-14 16:07:45,433 INFO - Launched DagFileProcessorManager with pid: 6881
+2023-11-14 16:07:45,434 INFO - Resetting orphaned tasks for active dag runs
+2023-11-14 16:07:45,438 INFO - Configured default timezone Timezone('UTC')
+2023-11-14 16:07:45,463 INFO - Marked 1 SchedulerJob instances as failed
+2023-11-14 16:08:14,117 INFO - 1 tasks up for execution:
+	<TaskInstance: load_dag.load_task manual__2023-11-14T16:08:13.556209+00:00 [scheduled]>
+2023-11-14 16:08:14,118 INFO - DAG load_dag has 0/16 running and queued tasks
+2023-11-14 16:08:14,118 INFO - Setting the following tasks to queued state:
+	<TaskInstance: load_dag.load_task manual__2023-11-14T16:08:13.556209+00:00 [scheduled]>
+2023-11-14 16:08:14,120 INFO - Sending TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2023-11-14T16:08:13.556209+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-11-14 16:08:14,120 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2023-11-14T16:08:13.556209+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py']
+2023-11-14 16:08:14,165 INFO - Executing command: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2023-11-14T16:08:13.556209+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py']
+2023-11-14 16:08:17,024 INFO - Executor reports execution of load_dag.load_task run_id=manual__2023-11-14T16:08:13.556209+00:00 exited with status success for try_number 1
+2023-11-14 16:08:17,030 INFO - TaskInstance Finished: dag_id=load_dag, task_id=load_task, run_id=manual__2023-11-14T16:08:13.556209+00:00, map_index=-1, run_start_date=2023-11-14 16:08:16.142065+00:00, run_end_date=2023-11-14 16:08:16.560441+00:00, run_duration=0.418376, state=success, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-11-14 16:08:14.118651+00:00, queued_by_job_id=2, pid=7096
+2023-11-14 16:08:17,316 INFO - Marking run <DagRun load_dag @ 2023-11-14 16:08:13.556209+00:00: manual__2023-11-14T16:08:13.556209+00:00, state:running, queued_at: 2023-11-14 16:08:13.611231+00:00. externally triggered: True> successful
+2023-11-14 16:08:17,317 INFO - DagRun Finished: dag_id=load_dag, execution_date=2023-11-14 16:08:13.556209+00:00, run_id=manual__2023-11-14T16:08:13.556209+00:00, run_start_date=2023-11-14 16:08:14.012566+00:00, run_end_date=2023-11-14 16:08:17.317331+00:00, run_duration=3.304765, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-11-14 16:08:13.556209+00:00, data_interval_end=2023-11-14 16:08:13.556209+00:00, dag_hash=f472c8e8b5ba3947afdbd1cdcc18c97d
+2023-11-14 16:08:17,319 INFO - Setting next_dagrun for load_dag to None, run_after=None
+2023-11-14 16:12:45,572 INFO - Resetting orphaned tasks for active dag runs
+2023-11-14 16:15:17,527 INFO - Exiting gracefully upon receiving signal 15
+2023-11-14 16:15:18,530 INFO - Sending Signals.SIGTERM to group 6881. PIDs of all processes in the group: [6881]
+2023-11-14 16:15:18,531 INFO - Sending the signal Signals.SIGTERM to group 6881
+2023-11-14 16:15:18,794 INFO - Process psutil.Process(pid=6881, status='terminated', exitcode=0, started='16:07:45') (6881) terminated with exit code 0
+2023-11-14 16:15:18,796 INFO - Sending Signals.SIGTERM to group 6881. PIDs of all processes in the group: []
+2023-11-14 16:15:18,796 INFO - Sending the signal Signals.SIGTERM to group 6881
+2023-11-14 16:15:18,797 INFO - Sending the signal Signals.SIGTERM to process 6881 as process group is missing.
+2023-11-14 16:15:18,797 INFO - Exited execute loop
