@@ -1,0 +1,185 @@
+[2023-11-14T11:30:38.425+0000] {processor.py:153} INFO - Started process (PID=26621) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:30:38.426+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:30:38.426+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:30:38.426+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:30:38.432+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:30:38.453+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.031 seconds
+[2023-11-14T11:30:40.876+0000] {processor.py:153} INFO - Started process (PID=26648) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:30:40.877+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:30:40.877+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:30:40.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:30:40.883+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:30:40.888+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.015 seconds
+[2023-11-14T11:30:55.774+0000] {processor.py:153} INFO - Started process (PID=26737) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:30:55.775+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:30:55.775+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:30:55.775+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:30:55.783+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:30:55.790+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.020 seconds
+[2023-11-14T11:31:11.203+0000] {processor.py:153} INFO - Started process (PID=26849) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:11.204+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:31:11.204+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:31:11.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:11.209+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:11.216+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.015 seconds
+[2023-11-14T11:31:14.031+0000] {processor.py:153} INFO - Started process (PID=26868) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:14.032+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:31:14.032+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:31:14.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:14.037+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:14.042+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:31:19.103+0000] {processor.py:153} INFO - Started process (PID=26892) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:19.104+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:31:19.104+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:31:19.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:19.110+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:19.116+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.015 seconds
+[2023-11-14T11:31:49.613+0000] {processor.py:153} INFO - Started process (PID=27089) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:49.614+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:31:49.614+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:31:49.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:49.619+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:31:49.625+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:32:15.628+0000] {processor.py:153} INFO - Started process (PID=27280) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:32:15.629+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:32:15.629+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:32:15.629+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:32:15.633+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:32:15.640+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.015 seconds
+[2023-11-14T11:32:32.824+0000] {processor.py:153} INFO - Started process (PID=27405) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:32:32.825+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:32:32.825+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:32:32.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:32:32.830+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:32:32.836+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.015 seconds
+[2023-11-14T11:33:02.995+0000] {processor.py:153} INFO - Started process (PID=27604) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:33:02.996+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:33:02.996+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:33:02.996+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:33:03.001+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:33:03.007+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:33:33.158+0000] {processor.py:153} INFO - Started process (PID=27789) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:33:33.158+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:33:33.159+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:33:33.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:33:33.163+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:33:33.168+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.013 seconds
+[2023-11-14T11:34:03.338+0000] {processor.py:153} INFO - Started process (PID=27994) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:03.339+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:34:03.339+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:34:03.339+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:03.343+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:03.350+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:34:11.080+0000] {processor.py:153} INFO - Started process (PID=28051) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:11.081+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:34:11.082+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:34:11.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:11.088+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:34:11.087+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 6, in <module>
+    s
+NameError: name 's' is not defined
+[2023-11-14T11:34:11.088+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:11.147+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.069 seconds
+[2023-11-14T11:34:13.081+0000] {processor.py:153} INFO - Started process (PID=28064) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:13.082+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:34:13.083+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:34:13.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:13.088+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:13.134+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.056 seconds
+[2023-11-14T11:34:21.560+0000] {processor.py:153} INFO - Started process (PID=28121) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:21.561+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:34:21.561+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:34:21.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:21.563+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:34:21.563+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 6
+    print(.)
+          ^
+SyntaxError: invalid syntax
+[2023-11-14T11:34:21.563+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:21.614+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.056 seconds
+[2023-11-14T11:34:22.167+0000] {processor.py:153} INFO - Started process (PID=28122) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:22.167+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:34:22.168+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:34:22.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:22.173+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:22.215+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.050 seconds
+[2023-11-14T11:34:24.394+0000] {processor.py:153} INFO - Started process (PID=28138) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:24.395+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:34:24.395+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:34:24.395+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:24.400+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:24.406+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:34:54.872+0000] {processor.py:153} INFO - Started process (PID=28346) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:54.872+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:34:54.873+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:34:54.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:54.877+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:34:54.883+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.013 seconds
+[2023-11-14T11:35:12.795+0000] {processor.py:153} INFO - Started process (PID=28464) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:35:12.796+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:35:12.796+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:35:12.796+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:35:12.800+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:35:12.806+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:35:18.154+0000] {processor.py:153} INFO - Started process (PID=28511) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:35:18.154+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:35:18.155+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:35:18.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:35:18.159+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:35:18.165+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.013 seconds
+[2023-11-14T11:35:48.766+0000] {processor.py:153} INFO - Started process (PID=28706) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:35:48.767+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:35:48.767+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:35:48.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:35:48.771+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:35:48.777+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:36:02.193+0000] {processor.py:153} INFO - Started process (PID=28792) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:02.194+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:36:02.194+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:36:02.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:02.200+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:02.207+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.018 seconds
+[2023-11-14T11:36:11.324+0000] {processor.py:153} INFO - Started process (PID=28854) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:11.324+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:36:11.325+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:36:11.325+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:11.331+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:36:11.330+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 6, in <module>
+    p
+NameError: name 'p' is not defined
+[2023-11-14T11:36:11.332+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:11.396+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.078 seconds
+[2023-11-14T11:36:14.283+0000] {processor.py:153} INFO - Started process (PID=28876) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:14.284+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:36:14.284+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:36:14.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:14.289+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:14.333+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.052 seconds
+[2023-11-14T11:36:20.562+0000] {processor.py:153} INFO - Started process (PID=28925) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:20.562+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:36:20.563+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:36:20.563+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:20.567+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:20.573+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:36:51.078+0000] {processor.py:153} INFO - Started process (PID=29103) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:51.079+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:36:51.080+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:36:51.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:51.083+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:36:51.089+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.013 seconds
+[2023-11-14T11:37:21.668+0000] {processor.py:153} INFO - Started process (PID=29288) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:37:21.669+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:37:21.669+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:37:21.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:37:21.673+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:37:21.679+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:37:52.210+0000] {processor.py:153} INFO - Started process (PID=29466) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:37:52.211+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:37:52.212+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:37:52.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:37:52.216+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:37:52.222+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:38:22.858+0000] {processor.py:153} INFO - Started process (PID=29644) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:38:22.858+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:38:22.859+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:38:22.859+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:38:22.863+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:38:22.869+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.013 seconds
+[2023-11-14T11:38:53.392+0000] {processor.py:153} INFO - Started process (PID=29829) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:38:53.392+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:38:53.393+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:38:53.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:38:53.397+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:38:53.403+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
+[2023-11-14T11:39:23.931+0000] {processor.py:153} INFO - Started process (PID=30041) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:39:23.932+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2023-11-14T11:39:23.932+0000] {logging_mixin.py:137} INFO - [2023-11-14T11:39:23.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:39:23.936+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2023-11-14T11:39:23.942+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.014 seconds
