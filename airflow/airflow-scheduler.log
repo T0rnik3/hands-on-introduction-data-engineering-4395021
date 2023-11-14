@@ -5,3 +5,4 @@
 2023-11-14 15:40:44,850 INFO - Resetting orphaned tasks for active dag runs
 2023-11-14 15:40:44,854 INFO - Configured default timezone Timezone('UTC')
 2023-11-14 15:45:44,990 INFO - Resetting orphaned tasks for active dag runs
+2023-11-14 15:50:45,022 INFO - Resetting orphaned tasks for active dag runs
